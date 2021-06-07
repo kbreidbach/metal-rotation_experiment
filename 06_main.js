@@ -29,9 +29,11 @@ $("document").ready(function() {
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "debug",
-            contact_email: "kbreidbach@uni-osnabrueck.de",
-            prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
+            deployMethod: "directLink",
+            contact_email: "kbreidbach@uni-osnabrueck.de"
+            //prolificURL:"wonderful-montalcini-f5fda6.netlify.app"
+            //prolificURL:"https://app.netlify.com/sites/wonderful-montalcini-f5fda6/settings/domain"
+            //prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
         progress_bar: {
