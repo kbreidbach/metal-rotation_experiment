@@ -18,6 +18,7 @@ $("document").ready(function() {
             intro,
             instructions,
             practice_key_press,
+            intermediate_view,
             main_key_press,
             post_test,
             thanks,

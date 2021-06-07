@@ -26,7 +26,14 @@ const instructions = magpieViews.view_generator("instructions", {
             You need to press key <strong>f</strong> if you think that the objects are the <strong>same</strong>
             <br />
             and press key <strong>j</strong> if you think the objects are <strong>different</strong>`,
-  buttonText: 'go to trials'
+  buttonText: 'go to practice trials'
+});
+
+const intermediate_view = magpieViews.view_generator("instructions", {
+  trials: 1,
+  name: 'intermediate_view',
+  text: `Your main trials start now.`,
+  buttonText: 'go to main trials'
 });
 
 // In the post test questionnaire the participant is asked additional questions
