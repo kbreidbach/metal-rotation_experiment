@@ -1,0 +1,671 @@
+// The trial data for the mental rotation experiment
+
+const practice_trial = {
+    key_press: [
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/1_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 1,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/1_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 1,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/1_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 1,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/1_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 1,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/2_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 2,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/2_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 2,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/2_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 2,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/2_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 2,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/3_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 3,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/3_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 3,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/3_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 3,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/3_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 3,
+            rotation: 150
+        }
+    ]
+};
+
+const main_trial = {
+    key_press: [
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/4_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 4,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/4_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 4,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/4_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 4,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/4_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 4,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/5_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 5,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/5_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 5,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/5_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 5,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/5_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 5,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/6_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 6,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/6_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 6,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/6_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 6,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/6_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 6,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/7_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 7,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/7_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 7,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/7_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 7,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/7_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 7,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/8_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 8,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/8_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 8,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/8_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 8,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/8_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 8,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/9_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 9,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/9_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 9,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/9_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 9,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/9_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 9,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/10_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 10,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/10_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 10,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/10_150_diffeent.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 10,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/10_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 10,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/11_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 11,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/11_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 11,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/11_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 11,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/11_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 11,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/12_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 12,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/12_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 12,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/12_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 12,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/12_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 12,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/13_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 13,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/13_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 13,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/13_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 13,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/13_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 13,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/14_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 14,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/14_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 14,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/14_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 14,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/14_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 14,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/15_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 15,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/14_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 15,
+            rotation: 50
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/15_150_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'different',
+            image: 15,
+            rotation: 150
+        },
+        {
+            question: "Are the pictures of the same object?",
+            picture: "images/mental_rotation_images/15_150_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same',
+            image: 15,
+            rotation: 150
+        }
+    ]
+};
