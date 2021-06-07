@@ -427,7 +427,7 @@ const main_trial = {
         },
         {
             question: "Are the pictures of the same object?",
-            picture: "images/mental_rotation_images/10_150_diffeent.jpg",
+            picture: "images/mental_rotation_images/10_150_different.jpg",
             key1: 'f',
             key2: 'j',
             f: 'same',
